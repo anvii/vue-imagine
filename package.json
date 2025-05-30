@@ -1,6 +1,6 @@
 {
   "name": "vue-imagine",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Andrey Solovyev <andrewsl@yandex.ru>",
   "description": "Vue3 image displaying components",
   "keywords": [
@@ -13,8 +13,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "main": "dist/vue-imagine.js",
-  "module": "dist/vue-imagine.umd.cjs",
+  "main": "src/index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anvii/vue-imagine.git"
