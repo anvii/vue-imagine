@@ -1,6 +1,6 @@
 {
   "name": "vue-imagine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Andrey Solovyev <andrewsl@yandex.ru>",
   "description": "Vue3 image displaying components",
   "keywords": [
@@ -22,7 +22,8 @@
   "homepage": "http://andrewsl.beget.tech/vue-imagine/",
   "files": [
     "README.md",
-    "src"
+    "src",
+    "dist"
   ],
   "scripts": {
     "build": "run-p type-check \"build-only {@}\" --",
