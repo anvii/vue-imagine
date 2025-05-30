@@ -1,0 +1,55 @@
+{
+  "name": "vue-imagine",
+  "version": "1.0.0",
+  "author": "Andrey Solovyev <andrewsl@yandex.ru>",
+  "description": "Vue3 image displaying components",
+  "keywords": [
+    "vue",
+    "image",
+    "zoom",
+    "slide",
+    "swipe",
+    "gallery"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:andrewsl/vue-imagine.git"
+  },
+  "homepage": "http://andrewsl.beget.tech/vue-imagine/",
+  "files": [
+    "README.md",
+    "src"
+  ],
+  "scripts": {
+    "build": "run-p type-check \"build-only {@}\" --",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "eslint . --fix",
+    "docs:dev": "vuepress dev docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/eslint-config-typescript": "^14.5.0",
+    "@vue/tsconfig": "^0.7.0",
+    "@vuepress/bundler-vite": "^2.0.0-rc.23",
+    "@vuepress/theme-default": "^2.0.0-rc.88",
+    "eslint": "^9.22.0",
+    "eslint-plugin-vue": "~10.0.0",
+    "jiti": "^2.4.2",
+    "npm-run-all2": "^7.0.2",
+    "sass-embedded": "^1.89.0",
+    "typescript": "~5.8.0",
+    "vite": "^6.2.4",
+    "vue-tsc": "^2.2.8",
+    "vuepress": "^2.0.0-rc.23"
+  }
+}
