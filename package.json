@@ -15,7 +15,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:andrewsl/vue-imagine.git"
+    "url": "git+https://github.com/anvii/vue-imagine.git"
   },
   "homepage": "http://andrewsl.beget.tech/vue-imagine/",
   "files": [

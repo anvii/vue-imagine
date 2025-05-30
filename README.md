@@ -13,7 +13,7 @@ The package includes components:
 ## Install
 
 ```sh
-npm install https://github.com/anvii/vue-imagine.git
+npm install vue-imagine
 ```
 
 ## Documentation and demo
