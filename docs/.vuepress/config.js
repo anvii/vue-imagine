@@ -13,6 +13,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
+    repo: 'https://github.com/anvii/vue-imagine',
     navbar: [
       '/',
       {
