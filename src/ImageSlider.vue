@@ -1,8 +1,8 @@
 <template>
   <div ref="root" class="__image-slider" :style="`--slide-index: ${slideIndex}; --slide-scroll: ${slideScroll}px;`"
     @mousedown.left="onMouseButton(true)" @mouseup.left="onMouseButton(false)" @mouseleave="onMouseButton(false)"
-    @mousemove="onMouseMove" @click="onClick" @touchstart="dragStart" @touchmove="dragMove" @touchend="dragEnd"
-    @touchcancel="dragEnd" @dragstart.prevent="false">
+    @mousemove="onMouseMove" @click="onClick" @touchstart.prevent="dragStart" @touchmove.prevent="dragMove" @touchend.prevent="dragEnd"
+    @touchcancel.prevent="dragEnd" @dragstart.prevent="false">
     <div ref="container" class="__container" :style="`transition: ${mouseDown ? 'none' : transition};`">
       <slot />
     </div>

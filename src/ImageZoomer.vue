@@ -2,7 +2,7 @@
   <div ref="root" class="__image-zoom" :style="`--sx: ${scrollX}px; --sy: ${scrollY}px; --zoom: ${zoom};`"
     @dragstart.prevent="false" @mousedown.left="onMouseButton(true)" @mouseup.left="onMouseButton(false)"
     @mouseleave="onMouseButton(false)" @mousemove="onMouseMove" @wheel.prevent="onWheel" @click="onClick"
-    @touchstart="onTouchStart" @touchend="onTouchEnd" @touchcancel="onTouchEnd" @touchmove="onTouchMove">
+    @touchstart.prevent="onTouchStart" @touchend.prevent="onTouchEnd" @touchcancel.prevent="onTouchEnd" @touchmove.prevent="onTouchMove">
     <div ref="inner" class="__image-zoom-inner" :style="`transition: ${transition};`">
       <slot />
     </div>
