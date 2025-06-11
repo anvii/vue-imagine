@@ -18,5 +18,5 @@ npm install vue-imagine
 
 ## Documentation and demo
 
-http://andrewsl.beget.tech/vue-imagine
+https://anvii.github.io/vue-imagine/
 

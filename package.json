@@ -1,6 +1,6 @@
 {
   "name": "vue-imagine",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Andrey Solovyev <andrewsl@yandex.ru>",
   "description": "Vue3 image displaying components",
   "keywords": [
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/anvii/vue-imagine.git"
   },
-  "homepage": "http://andrewsl.beget.tech/vue-imagine/",
+  "homepage": "https://anvii.github.io/vue-imagine/",
   "files": [
     "README.md",
     "src",
