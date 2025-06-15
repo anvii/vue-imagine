@@ -40,15 +40,15 @@ import { ref, watch } from 'vue';
 interface Props {
   disabled?: boolean,
   transition?: string,
+  threshold?: number,
 };
 
 const root = ref<HTMLElement>();
 const container = ref<HTMLElement>();
 const slideIndex = defineModel<number>({ default: 0 });
-const { disabled = false, transition = 'none' } = defineProps<Props>();
+const { disabled = false, transition = 'none', threshold = 0.15 } = defineProps<Props>();
 
 const slideScroll = ref(0);
-const threshold = 0.3;
 let mouseDown = false;
 let clickDisabled = false;
 let dragX = 0;

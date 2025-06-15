@@ -1,6 +1,6 @@
 {
   "name": "vue-imagine",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Andrey Solovyev <andrewsl@yandex.ru>",
   "description": "Vue3 image displaying components",
   "keywords": [

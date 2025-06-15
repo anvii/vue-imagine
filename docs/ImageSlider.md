@@ -38,6 +38,7 @@ This method is applicable to a large set of images. Only the current image is en
 
 - `disabled`: Set to `true` to disable swiping. Default is `false`. Changing model value will ignore this property.
 - `transition`: CSS `transition` property. Default is `none`.
+- `threshold`: How many of picture to swipe left or right in order to change frame. Default is `0.15`.
 
 ### Methods
 
