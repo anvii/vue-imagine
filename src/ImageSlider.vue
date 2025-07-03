@@ -101,6 +101,7 @@ function onMouseButton(down: boolean) {
   mouseDown = down;
   if (!down) {
     finishSlide();
+    clickDisabled = false;
   }
 }
 
